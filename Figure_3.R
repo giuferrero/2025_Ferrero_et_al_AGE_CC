@@ -170,7 +170,7 @@ library("Hmisc")
 dat1 <- dplyr::filter(dat, Sample %in% c("Stool")) %>% 
   dplyr::select("Sample", "ID", agevec, "ID adjacent RNA-Seq")
 
-goi <- c("GLO1", "TTPA", "MSR1", "SCARB1", "CD36", "SLC23A2", "GATD3", "AGER", "DDOST", "LGALS3", "TPI1", "HAGH", "AKR1B1", "MLXIPL", "MMP2", "SP1")
+goi <- c("GLO1", "TTPA", "MSR1", "SCARB1", "CD36", "SLC23A2", "GATD3", "AGER", "DDOST", "LGALS3", "TPI1", "HAGH", "AKR1B10", "MLXIPL", "MMP2", "SP1")
 
 geneinfo <- read.delim("Gencode_v40_Gene_information.txt", header=F)
 
