@@ -1,3 +1,5 @@
+## Code to generate the plots reported in the Supplementary Figure 1 and Supplementary Figure 2
+
 ### Supplementary Figure 1A -- Boxplot Diabetes ----
 dat1 <- dat %>% 
   select("Sample", "Diabetes", "ID", agevec, "Subject") %>%
